@@ -19,6 +19,7 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
+					author: "Simone Mosi",
 					title: "simomosi",
 					description:
 						"A passionate Software Engineer.",
@@ -30,6 +31,9 @@ export default function Home({ githubProfileData }) {
 						"Simone Mosi",
 						"Simone Mosi Portfolio",
 						"Portfolio",
+						"Software Developer",
+						"Software Developer Portfolio",
+						"Software Developer CV",
 					],
 				}}
 			/>
