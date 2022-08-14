@@ -19,9 +19,11 @@ const EducationCard = ({ education }) => {
 							<Badge color="info" className="mr-1">
 								{education.duration}
 							</Badge>
-							{education.grade && (<Badge color="primary" className="mr-1">
-								{education.grade}
-							</Badge>)}
+							{ education.grade && (
+								<Badge color="primary" className="mr-1">
+									{education.grade}
+								</Badge>
+							)}
 							{education.desc && (
 								<p className="description mt-3">{education.desc}</p>
 							)}
