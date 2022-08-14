@@ -20,7 +20,7 @@ export default function Home({ githubProfileData }) {
 			<SEO
 				data={{
 					author: "Simone Mosi",
-					title: "simomosi",
+					title: "Portfolio | simomosi",
 					description:
 						"A passionate Software Engineer.",
 					image: "https://avatars.githubusercontent.com/u/37104045?v=4",
