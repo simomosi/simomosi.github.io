@@ -5,9 +5,25 @@ import { Card, Col, Row, Container } from "reactstrap";
 import SocialLinks from "../components/SocialLinks";
 import Image from "next/image";
 
+import Particles from 'react-particles';
+import { loadFull } from "tsparticles";
+import {particlesOptions} from '../particlesConfig';
+
+import { useCallback } from "react";
+
 const GithubProfileCard = ({ prof }) => {
+
+    const particlesInit = useCallback(async (engine) => {
+        await loadFull(engine);
+    }, []);
+
 	return (
 		<Card className="section-lg bg-gradient-info shadow-lg border-0">
+			<div style={{ position: 'absolute', width: '100%', top: '0' }}>
+				<Particles
+					id="tsparticlesGithubProfileCard" init={particlesInit} options={particlesOptions}
+				/>
+			</div>
 			<Container className="">
 				<div className="p-2">
 					<Row className="">

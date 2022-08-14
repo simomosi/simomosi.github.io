@@ -3,9 +3,25 @@ import EducationCard from "../components/EducationCard";
 import { educationInfo } from "../portfolio";
 import { Container, Row, Col } from "reactstrap";
 
+import Particles from 'react-particles';
+import { loadFull } from "tsparticles";
+import {particlesOptions} from '../particlesConfig';
+
+import { useCallback } from "react";
+
 const Education = () => {
+
+    const particlesInit = useCallback(async (engine) => {
+        await loadFull(engine);
+    }, []);
+
 	return educationInfo && (
 		<section className="section pb-0 bg-gradient-info my-5">
+			<div style={{ position: 'absolute', width: '100%', top: '0' }}>
+				<Particles
+					id="tsparticlesEducation" init={particlesInit} options={particlesOptions}
+				/>
+			</div>
 			<Container>
 				<div className="d-flex px-3">
 					<div>
