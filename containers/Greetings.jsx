@@ -1,12 +1,20 @@
-import React, { useEffect } from "react";
-import { greetings } from "../portfolio";
+import React, {useEffect} from "react";
+import {greetings} from "../portfolio";
 
-import { Button, Container, Row, Col } from "reactstrap";
+import {Button, Container, Row, Col} from "reactstrap";
 
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
 
 import {Fade} from 'react-reveal'
+
+import Particles from 'react-particles'
+
+import {loadFull} from "tsparticles";
+import {useCallback} from "react";
+
+
+// axelconceicao.github.io
 
 const Greetings = () => {
 
@@ -101,11 +109,25 @@ const Greetings = () => {
         document.scrollingElement.scrollTop = 0;
     });
     return (
-        <main>
-            <Fade top duration={1000} distance="100px">
+        <Fade top duration={1000} distance="100px">
+            <main>
                 <div className="position-relative">
                     <section className="section section-lg section-shaped pb-250">
+                        {/* Start Particles */}
+                        {
 
+                            // <div style={{ position: 'absolute', width: '100%', top: '0' }}>
+                            // 	<Particles
+                            // 		id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={particlesOptions}
+                            // 	/>
+                            // </div>
+
+                            <Particles id="tsparticles"
+                                       init={particlesInit}
+                                       loaded={particlesLoaded}
+                                       options={options}/>
+                        }
+                        {/* End Particles */}
                         <div className="shape shape-style-1 bg-gradient-info">
                             <span/>
                             <span/>
@@ -169,8 +191,8 @@ const Greetings = () => {
                     </section>
                     {/* 1st Hero Variation */}
                 </div>
-            </Fade>
-        </main>
+            </main>
+        </Fade>
     );
 };
 
