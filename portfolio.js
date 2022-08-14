@@ -182,7 +182,7 @@ export const educationInfo = [
 		schoolName: "B.Sc. in Computer Science",
 		// subHeader: "Master's Degree in Computer Science",
 		duration: "2013 - 2016",
-		vote: "108/110",
+		grade: "108/110",
 		desc: "Details:",
 		descBullets: [
 			"Thesis: Development of a Game Engine specialized in Showrooms/Virtual Realities creation",
