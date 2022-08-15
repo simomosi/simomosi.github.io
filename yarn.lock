@@ -11697,20 +11697,6 @@ tsparticles-plugin-polygon-mask@^2.2.1:
   dependencies:
     tsparticles-engine "^2.2.1"
 
-tsparticles-preset-triangles@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/tsparticles-preset-triangles/-/tsparticles-preset-triangles-2.2.1.tgz#ce9d5ee83d69256fa2b9c9bc4a4e095bdba8895c"
-  integrity sha512-+C/c3wfD71wW0TeMczv+ykiEZWeDNzr5Zjpk3MeIWQoQgW2WGEIpTSCpJ6Pd07eOmMJtoibfhMTopo+uGmtFbQ==
-  dependencies:
-    tsparticles-engine "^2.2.1"
-    tsparticles-interaction-particles-links "^2.2.1"
-    tsparticles-move-base "^2.2.1"
-    tsparticles-shape-circle "^2.2.1"
-    tsparticles-updater-color "^2.2.1"
-    tsparticles-updater-opacity "^2.2.1"
-    tsparticles-updater-out-modes "^2.2.1"
-    tsparticles-updater-size "^2.2.1"
-
 tsparticles-shape-circle@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/tsparticles-shape-circle/-/tsparticles-shape-circle-2.2.1.tgz#5ad8adc9a471825f06bea5a9813ded2fab6a116b"
