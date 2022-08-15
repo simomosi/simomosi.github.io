@@ -60,10 +60,9 @@ const Greetings = () => {
                                         <SocialLinks />
                                         <div className="btn-wrapper my-4">
                                             <Button
+                                                type="button"
                                                 className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                                                 color="default"
-                                                // href={greetings.resumeLink}
-                                                href="javascript:void(0)"
                                             >
                                                 <span className="btn-inner--icon mr-1">
                                                     <i className="fa fa-arrow-up" />
