@@ -8,7 +8,7 @@ This is my developer portfolio.
 
 :rocket: I implemented a Continuous Delivery workflow to deploy the portfolio on github pages everytime I make a change.
 
-Drop here a :star: and visit me @ [simomosi.github.io](simomosi.github.io) :heart:
+Drop here a :star: and visit me @ [simomosi.github.io](https://simomosi.github.io/) :heart:
 
 ## Credits
 
