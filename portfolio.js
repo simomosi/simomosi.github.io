@@ -30,7 +30,7 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I am",
 	subTitle:
-		"Computer Science Lover",
+		"Computer Science Enthusiast",
 	data: [
 		{
 			title: "Software Engineer",
