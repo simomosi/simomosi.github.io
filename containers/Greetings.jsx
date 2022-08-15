@@ -14,8 +14,6 @@ import {particlesOptions} from '../particlesConfig';
 
 import { useCallback } from "react";
 
-// axelconceicao.github.io
-
 const Greetings = () => {
 
     const particlesInit = useCallback(async (engine) => {
