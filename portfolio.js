@@ -17,7 +17,7 @@ export const contact = {};
 
 export const socialLinks = {
 	github: "https://github.com/simomosi",
-	linkedin: "https://www.linkedin.com/in/simomosi/",
+	linkedin: "https://www.linkedin.com/in/simonemosi/",
 };
 // export const socialLinks = {
 // 	facebook: "https://www.facebook.com/1hanzla100",
