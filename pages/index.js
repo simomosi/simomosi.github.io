@@ -17,26 +17,7 @@ import SEO from "../components/SEO";
 export default function Home({ githubProfileData }) {
 	return (
 		<div>
-			<SEO
-				data={{
-					author: "Simone Mosi",
-					title: "Portfolio | simomosi",
-					description:
-						"A passionate Software Engineer.",
-					image: "https://avatars.githubusercontent.com/u/37104045?v=4",
-					url: "simomosi.github.io",
-					keywords: [
-						"simomosi",
-						"simomosi portfolio",
-						"Simone Mosi",
-						"Simone Mosi Portfolio",
-						"Portfolio",
-						"Software Developer",
-						"Software Developer Portfolio",
-						"Software Developer CV",
-					],
-				}}
-			/>
+			<SEO />
 			<Navigation />
 			<Greetings />
 			<Skills />

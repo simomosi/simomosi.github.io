@@ -275,3 +275,23 @@ export const feedbacks = null;
 // 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
 // 	},
 // ];
+
+// See object prototype on SEO.jsx page
+export const seoData = {
+	author: "Simone Mosi",
+	title: "Portfolio | simomosi",
+	description:
+		"A passionate Software Engineer.",
+	image: "https://avatars.githubusercontent.com/u/37104045?v=4",
+	url: "simomosi.github.io",
+	keywords: [
+		"simomosi",
+		"simomosi portfolio",
+		"Simone Mosi",
+		"Simone Mosi Portfolio",
+		"Portfolio",
+		"Software Developer",
+		"Software Developer Portfolio",
+		"Software Developer CV",
+	],
+};
