@@ -17,11 +17,14 @@ const Education = () => {
 
 	return educationInfo && (
 		<section className="section pb-0 bg-gradient-info my-5">
-			<div style={{ position: 'absolute', width: '100%', top: '0' }}>
-				<Particles
-					id="tsparticlesEducation" init={particlesInit} options={particlesOptions}
-				/>
-			</div>
+			{/*<div style={{ position: 'relative', width: '100%', top: '0', zIndex: "1" }}>*/}
+			{/*	<Particles*/}
+			{/*		id="tsparticlesEducation" init={particlesInit} options={particlesOptions}*/}
+			{/*	/>*/}
+			{/*</div>*/}
+
+            {/*https://stackoverflow.com/questions/55763325/my-container-div-is-going-outside-of-the-particle-js-background*/}
+			{/*https://github.com/matteobruni/tsparticles/issues/1277*/}
 			<Container>
 				<div className="d-flex px-3">
 					<div>

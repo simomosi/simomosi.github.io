@@ -1,4 +1,6 @@
+// https://github.com/matteobruni/tsparticles/blob/main/components/react/README.md
 export const particlesOptions = {
+    // fullScreen: { enable: false, zIndex: 0 },
     fpsLimit: 120,
     particles: {
         color: {
@@ -29,7 +31,7 @@ export const particlesOptions = {
                 enable: true,
                 area: 800,
             },
-            value: 25,
+            value: 30,
         },
         opacity: {
             value: 0.5,

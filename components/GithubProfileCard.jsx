@@ -19,11 +19,11 @@ const GithubProfileCard = ({ prof }) => {
 
 	return (
 		<Card className="section-lg bg-gradient-info shadow-lg border-0">
-			<div style={{ position: 'absolute', width: '100%', top: '0' }}>
-				<Particles
-					id="tsparticlesGithubProfileCard" init={particlesInit} options={particlesOptions}
-				/>
-			</div>
+			{/*<div style={{ position: 'absolute', width: '100%', top: '0' }}>*/}
+			{/*	<Particles*/}
+			{/*		id="tsparticlesGithubProfileCard" init={particlesInit} options={particlesOptions}*/}
+			{/*	/>*/}
+			{/*</div>*/}
 			<Container className="">
 				<div className="p-2">
 					<Row className="">
